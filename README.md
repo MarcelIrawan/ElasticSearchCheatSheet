@@ -27,7 +27,7 @@ Uncomment the **node.name** line.
 Change **network.host** to **0.0.0.0**, **discovery.seed.hosts** to **[“127.0.0.1”]**, and **cluster.initial_master_nodes** to **[“node-1”]**
 
 ## Syntax Cheat Sheet
-[1. Basic CURL API Sytax](https://github.com/ruanbekker/cheatsheets/tree/master/elasticsearch).
+[1. Basic CURL API Syntax](https://github.com/ruanbekker/cheatsheets/tree/master/elasticsearch).
 
 
 [2. Python Elasticsearch Library Cheat Sheet](https://github.com/ruanbekker/cheatsheets/blob/master/elasticsearch/python-elasticsearch.md#python-library)
