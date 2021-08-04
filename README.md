@@ -26,6 +26,15 @@ Uncomment the **node.name** line.
 
 Change **network.host** to **0.0.0.0**, **discovery.seed.hosts** to **[“127.0.0.1”]**, and **cluster.initial_master_nodes** to **[“node-1”]**
 
+Reload daemon and start elasticsearch
+```bash
+sudo /bin/systemctl daemon-reload
+
+sudo /bin/systemctl enable elasticsearch.service
+
+sudo /bin/systemctl start elasticsearch.service
+```
+
 ## Syntax Cheat Sheet
 [1. Basic CURL API Syntax](https://github.com/ruanbekker/cheatsheets/tree/master/elasticsearch).
 
